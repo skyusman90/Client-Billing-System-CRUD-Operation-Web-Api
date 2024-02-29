@@ -17,6 +17,6 @@
 ## Prerequisites
 Create an Empty ASP.NET Core Web API project.
 
-Create a Token in appsettings.json.
+Create a TokenKey for the JWT Authentication in appsettings.json.
 
 Include the connection string in appsettings.json.
