@@ -14,6 +14,12 @@
 , System.Data.SqlClient
 , System.IdentityModel.Tokens.Jwt
 
+# Important
+
+Download and run these queries and make the stored procedures used in this API to make sure the API runs properly.
+
+https://github.com/skyusman90/Client-Billing-System-SQL-Procedures
+
 ## Prerequisites
 Create an Empty ASP.NET Core Web API project.
 
