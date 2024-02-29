@@ -14,4 +14,7 @@
 , System.Data.SqlClient
 , System.IdentityModel.Tokens.Jwt
 
+## Prerequisites
 Create an Empty ASP.NET Core Web API project.
+Create a Token in appsettings.json.
+Include the connection string in appsettings.json.
