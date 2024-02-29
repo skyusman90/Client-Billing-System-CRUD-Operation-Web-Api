@@ -17,7 +17,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddDbContext<DataContext>(options => //Db Context for connecting to the database
 {
-    options.UseSqlServer(builder.Configuration.GetConnectionString("BillingInfoCnn"));  //Change the name of the connection string to your name of the connection string in the appsettings.json
+    options.UseSqlServer(builder.Configuration.GetConnectionString("Name_of_connection_string"));  //Change the name of the connection string to your name of the connection string in the appsettings.json
 });
 
 builder.Services.AddEndpointsApiExplorer();
