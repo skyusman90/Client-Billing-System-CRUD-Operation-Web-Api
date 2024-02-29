@@ -13,3 +13,5 @@
 , System.Data.Common
 , System.Data.SqlClient
 , System.IdentityModel.Tokens.Jwt
+
+Create an Empty ASP.NET Core Web API project.
